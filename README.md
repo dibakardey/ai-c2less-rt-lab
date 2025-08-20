@@ -20,7 +20,7 @@ Instead of a fixed server, it uses **ephemeral, AI-coordinated agents** that spi
 
 The following diagram illustrates the architecture of the AI-driven C2-less system:
 
-![AI C2-Less Architecture](https://github.com/dibakardey/ai-c2-less-lab/raw/main/docs/architecture1.png)
+![AI C2-Less Architecture](./docs/architecture1.png)
 
 
 ---

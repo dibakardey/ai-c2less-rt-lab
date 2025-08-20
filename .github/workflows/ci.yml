@@ -1,0 +1,47 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    # Python setup
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Run Python linting
+      run: |
+        pip install flake8
+        flake8 --max-line-length=120 || true
+
+    # Terraform setup
+    - name: Set up Terraform
+      uses: hashicorp/setup-terraform@v3
+
+    - name: Validate Terraform
+      run: terraform validate || true
+
+    # AWS SAM validation
+    - name: Install AWS SAM CLI
+      run: |
+        pip install aws-sam-cli
+        sam --version
+
+    - name: Validate SAM Template
+      run: sam validate || true

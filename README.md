@@ -16,6 +16,15 @@ Instead of a fixed server, it uses **ephemeral, AI-coordinated agents** that spi
 
 ---
 
+## Architecture
+
+The following diagram illustrates the architecture of the AI-driven C2-less system:
+
+![AI C2-Less Architecture](https://github.com/dibakardey/ai-c2-less-lab/raw/main/docs/architecture1.png)
+
+
+---
+
 ## 📂 Repository Structure
 ```plaintext
 ├── agent/             # Lambda agent code
@@ -65,12 +74,6 @@ AWS CloudWatch logs
 reports/ folder (sample logs included)
 
 Extend Lambda agents to simulate more Red Team activities.
-
-## Architecture
-
-The following diagram illustrates the architecture of the AI-driven C2-less system:
-
-![AI C2-Less Architecture](https://github.com/dibakardey/ai-c2-less-lab/raw/main/docs/architecture1.png)
 
 
 📜 License

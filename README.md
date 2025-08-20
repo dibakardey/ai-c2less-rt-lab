@@ -66,9 +66,7 @@ reports/ folder (sample logs included)
 
 Extend Lambda agents to simulate more Red Team activities.
 
-🖼️ Architecture
-(./docs/architecture1.png)
-
+![Architecture Diagram](./docs/architecture.png)
 
 📜 License
 

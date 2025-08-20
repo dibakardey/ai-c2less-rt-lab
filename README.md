@@ -66,7 +66,12 @@ reports/ folder (sample logs included)
 
 Extend Lambda agents to simulate more Red Team activities.
 
-![Architecture Diagram](./docs/architecture1.png)
+## Architecture
+
+The following diagram illustrates the architecture of the AI-driven C2-less system:
+
+![AI C2-Less Architecture](https://github.com/dibakardey/ai-c2-less-lab/raw/main/docs/architecture1.png)
+
 
 📜 License
 

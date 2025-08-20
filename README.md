@@ -17,15 +17,17 @@ Instead of a fixed server, it uses **ephemeral, AI-coordinated agents** that spi
 ---
 
 ## 📂 Repository Structure
-├── agent/ # Lambda agent code
-├── coordinator/ # AI-driven task coordinator
-├── infrastructure/ # Terraform + SAM templates
-├── docs/ # Architecture diagrams + setup guides
-├── reports/ # Sample execution logs and reports
-├── README.md # This file
-├── requirements.txt # Python dependencies
-├── LICENSE # MIT License
+```plaintext
+├── agent/             # Lambda agent code
+├── coordinator/       # AI-driven task coordinator
+├── infrastructure/    # Terraform + SAM templates
+├── docs/              # Architecture diagrams + setup guides
+├── reports/           # Sample execution logs and reports
+├── README.md          # This file
+├── requirements.txt   # Python dependencies
+├── LICENSE            # MIT License
 └── .github/workflows/ # CI/CD pipeline for testing & linting
+
 
 ---
 

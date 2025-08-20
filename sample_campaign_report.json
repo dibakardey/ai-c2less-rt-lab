@@ -1,0 +1,42 @@
+{
+  "campaign_id": "cmp-2025-0819-001",
+  "start_time": "2025-08-19T10:32:15Z",
+  "end_time": "2025-08-19T11:05:42Z",
+  "status": "completed",
+  "agents": [
+    {
+      "agent_id": "agt-7f3a1",
+      "ip": "10.24.5.112",
+      "commands": [
+        {
+          "cmd": "ping -c 4 api.target.local",
+          "issued": "2025-08-19T10:33:00Z",
+          "response": "4 packets transmitted, 4 received, 0% packet loss"
+        },
+        {
+          "cmd": "cat /etc/os-release",
+          "issued": "2025-08-19T10:35:12Z",
+          "response": "Ubuntu 22.04.4 LTS (Jammy Jellyfish)"
+        }
+      ]
+    },
+    {
+      "agent_id": "agt-9b8d2",
+      "ip": "10.24.7.89",
+      "commands": [
+        {
+          "cmd": "df -h",
+          "issued": "2025-08-19T10:37:45Z",
+          "response": "/dev/root  50G  21G  29G  42% /"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "total_agents": 2,
+    "total_commands": 3,
+    "success_rate": "100%",
+    "errors": []
+  },
+  "notes": "Demo campaign executed on simulated agents for validation."
+}

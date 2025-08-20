@@ -1,0 +1,5 @@
+{"ts": "2025-08-19T10:32:15Z", "agent": "agt-7f3a1", "event": "started", "detail": "agent initialized"}
+{"ts": "2025-08-19T10:33:00Z", "agent": "agt-7f3a1", "event": "executed", "detail": "ping -c 4 api.target.local -> 0% loss"}
+{"ts": "2025-08-19T10:35:12Z", "agent": "agt-7f3a1", "event": "executed", "detail": "cat /etc/os-release -> Ubuntu 22.04.4 LTS"}
+{"ts": "2025-08-19T10:37:45Z", "agent": "agt-9b8d2", "event": "executed", "detail": "df -h -> /dev/root 50G 21G 29G 42% /"}
+{"ts": "2025-08-19T11:05:42Z", "agent": "agt-7f3a1", "event": "completed", "detail": "campaign finished"}

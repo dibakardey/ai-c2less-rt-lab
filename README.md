@@ -27,7 +27,6 @@ Instead of a fixed server, it uses **ephemeral, AI-coordinated agents** that spi
 ├── LICENSE # MIT License
 └── .github/workflows/ # CI/CD pipeline for testing & linting
 
-
 ---
 
 ## ⚡ Setup & Deployment

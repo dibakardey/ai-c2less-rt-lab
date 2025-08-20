@@ -67,6 +67,8 @@ reports/ folder (sample logs included)
 Extend Lambda agents to simulate more Red Team activities.
 
 🖼️ Architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4974226b-8e58-44a9-8ce8-14eeb964210f" />
+
 
 📜 License
 
@@ -74,4 +76,4 @@ This project is licensed under the MIT License
 .
 
 ⚠️ Disclaimer: This project is for educational & research purposes only.
-Do not use it for unauthorized access or malicious activity.
+Please do not use it for unauthorized access or malicious activity.
